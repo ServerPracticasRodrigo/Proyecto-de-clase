@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="./Estilosp3.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div>
+        <div class="encabezado1">
+            <img src="./logo2.jpg"  class="logo" width="80" height="55">
+            <h1 class="text">Veterinaria El Refugio</h1>
+        </div>
+        <div class="menu">
+            <input type="submit" class="bt1" id="Ir a Inicio" value="Ir a Inicio" onclick="IraInicio()" >
+            <input type="submit" class="bt2" id="Ir a Registrar" value="Ir a Registrar" onclick="Registrarte()" >
+        </div>
+        <header class="form_IniciarS">
+            <h1 >Inicia sesión Aqui</h1><br>
+                <label class="text23" size="30" >Accede como:  </label><br><br>
+                <select class="seleccionp1" name="Entrada" id="1">
+                    <option value="n0" selected>Ninguno</option>
+                    <option value="n1">Usuario</option>
+                    <option value="n2">Administrador</option>
+                    <option value="n3">Cliente</option>
+                </select>
+                <br><br>
+                <label class="text23">Nombre del usuario:</label><br><br>
+                <input class="validacion" minlength="5" maxlength="15" type="text" required spellcheck="true" size="30" ><br><br>
+                <label class="text23">Ingrese su contraseña:</label><br><br>
+                <input class="validacion" id="contra" minlength="5" maxlength="15" pattern="[0-9]+" title="intentelo de nuevo"  required spellcheck="true" type="text" size="30" ><br><br>    
+                <label class="text23">Ingrese nuevamente su contraseña:</label><br><br>
+                <input class="validacion" id="contra2" minlength="5" maxlength="15" pattern="[0-9]+" title="intentelo de nuevo" required spellcheck="true" type="text" size="30" ><br><br>
+                <input type="submit" class="bt3" id="Iniciando Sesion" value="Acceder" onclick="IniciandoSesion()" >
+                
+        </header>
+        <br><br><br>
+    </div>
+    <br><br>
+    <div class="piepagina">
+        <label class="textpp">La Veterinaria El Refugio nace tras muchos años de experiencia, calidad y formacion para ofrecer<br>
+                            el mejor ofreciendo el mejor servicio a la salud y bienestar de tu mascota
+        </label>
+    </div>    
+</body>
+</html>

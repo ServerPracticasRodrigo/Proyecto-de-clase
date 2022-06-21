@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso a la pagina</title>
+    <link rel="stylesheet" href="./Estilosp3.css">
+    <script src="./main.js"></script>
+</head>
+<body >
+    <div>
+        <div class="encabezado1">
+            <img src="./logo2.jpg"  class="logo" width="80" height="55">
+            <h1 class="text">Veterinaria El Refugio</h1>
+        </div>
+        <header >
+            <div class="menu">
+                <input type="submit" class="bt5" id="actualizar" value="Actualizar Pagina" onclick="Actualizar()" >
+                <input type="submit" class="bt2" id="cerrar sesion" value="Cerrar Sesion" onclick="CerrarSesion()" >
+            </div>
+        <header>
+            <section>
+                <h1>
+                    <label>Buscar:</label>
+                    <input name="Buscador" type="text" size="150" placeholder="Nombre de producto">
+                    <br><br>
+                    <img class="img" src="p1.jfif" width="150" height="100"> <img class="img" src="p2.jpg" width="150" height="100"> <img class="img" src="p3.jfif" width="150" height="100"><img class="img" src="p4.jpg" width="150" height="100"><br><br>
+                    <img class="img" src="p5.jpg" width="150" height="100"> <img class="img" src="p6.jfif" width="150" height="100"> <img class="img" src="p7.jfif" width="150" height="100"><img class="img" src="p8.jpg" width="150" height="100"><br><br>
+                    <img class="img" src="p9.jpg" width="150" height="100"> <img class="img" src="p10.jfif" width="150" height="100"> <img class="img" src="p11.jpg" width="150" height="100"><img class="img" src="p12.jpg" width="150" height="100"><br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="form_cita">
+                        <h1>Genera una cita</h1>
+                        <label class="text4">Nombre</label><br>
+                        <input  minlength="10" maxlength="15" required spellcheck="true" type="text" size="25" >    
+                        <label class="text4">Mascota:</label>  <select name="Nombre_mascota" id="NombreM">
+                            <option value="m1" selected>Ninguno</option>
+                            <option value="m2">Perro</option>
+                            <option value="m3">Gato</option>
+                            </select>
+                            <br>
+                         <label class="text4">Elige su servicio:</label>   <select name="servicio" id="Nombre_serv">
+                                        <option value="s1" selected>Ninguno</option>
+                                        <option value="s2">Baño</option>
+                                        <option value="s3">Vacuna</option>
+                                        </select>
+                          <br>
+                        <label class="text4">Productos</label>    <select name="producto" id="Nombre_prod">
+                                <option value="p1">Higiene</option>
+                                <option value="p2">Alimentacion</option>
+                                <option value="p3" selected>Ninguno</option>
+                                 </select>
+                        <br>
+                        <label class="text4">Agenda tu cita:</label> <input type="date" name="fecha" id="NomFec" ><br>
+                        <input type="submit" class="bt6" id="generando" value="Generar" onclick="Generando()" ><br>
+                        <div id="textpantallaf6"></div>
+                    </div>
+                    <br><br>
+                </h1>
+            </section>
+        </header>
+    </div>
+    <br><br>
+    <div class="piepagina">
+        <label class="textpp">La Veterinaria El Refugio nace tras muchos años de experiencia, calidad y formacion para ofrecer<br>
+                            el mejor ofreciendo el mejor servicio a la salud y bienestar de tu mascota
+        </label>
+    </div>
+</body>
+</html>

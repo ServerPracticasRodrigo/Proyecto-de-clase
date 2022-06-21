@@ -1,0 +1,322 @@
+
+/* primera pagina */
+.bt1:hover {
+   background: rgb(34, 120, 160);
+}
+.bt2:hover {
+    background: rgb(34, 120, 160);
+}
+ .bt3:hover {
+    background: rgb(34, 120, 160);
+}
+ .bt4:hover {
+    background: rgb(34, 120, 160);
+}
+ .bt5:hover {
+    background: rgb(34, 120, 160);
+}
+
+.bt6:hover:hover {
+    background: rgb(34, 120, 160);
+}
+
+.img {
+    position: relative;
+    padding: 20px;
+    margin:start;
+    top: 10px;
+    margin-top: -40px;
+      
+}
+ 
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(194, 110, 32) ;
+    background-size:cover;
+    background-position: center center;
+    height: 700px;
+}
+
+.encabezado1 {
+    background-color: rgb(2, 2, 2) ;
+    display: flex;
+    background-size:cover;
+    padding: 40px;
+    
+    
+}
+
+.piepagina {
+    background-color: rgb(2, 2, 2) ;
+    display: flex;
+    background-size: cover;
+    padding: 30px;
+}
+
+.textpp {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 280px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hsla(0, 14%, 93%, 0.945);
+}
+
+.logo {
+    align-items: start;
+    text-align: start;
+    width: 140px;
+    height: 100px;
+}
+
+.menu {
+    background-color: rgba(28, 17, 116, 0.938) ;
+    display: flex;
+    background-size: cover;
+    padding: 7px;
+    
+}
+
+.bt1 {
+    font-size: 17px;
+    top: 50px;
+    width: 120px;
+    height: 35px;
+    color: rgb(6, 6, 8);
+    background-color: rgb(255, 252, 247);
+    justify-content: center;
+    margin-inline: 1000px 30px;
+    border-radius: 10px;
+}
+
+.bt2 {
+    font-size: 17px;
+    top: 22px;
+    width: 120px;
+    height: 35px;
+    color: rgb(5, 5, 8);
+    background-color: #f5f3ef;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+.text {
+    font-size: 45px;
+    padding-left: 255px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: hsla(0, 14%, 93%, 0.945);
+}
+
+/* pagina 2 iniciar sesion .....................................................................*/
+
+.form_IniciarS {
+    background: rgb(20, 134, 71);
+    margin: auto;
+    margin-top: 50px;
+    width: 253px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+.text23 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.seleccionp1 {
+    font-size: 16px;
+}
+
+
+.bt3 {
+    font-size: 17px;
+    top: 50px;
+    width: 250px;
+    height: 35px;
+    color: rgb(6, 6, 8);
+    background-color: rgb(14, 89, 92);
+    justify-content: center;
+   
+
+}
+
+
+input {
+    height: 18px;
+}
+
+.validacion {
+    height: 18px;
+}
+
+.p3form {
+    width: 480px;
+    background: #0b5786fb;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+
+.portada {
+    font-size: 50px;
+}
+
+/*  pagina 3 .................................................................................. */
+
+
+.form_Registrar {
+    background: rgb(20, 134, 71);
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 590px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(58, 9, 9);
+    text-align: center;
+}
+
+.bt4 {
+    font-size: 17px;
+    top: 22px;
+    width: 155px;
+    height: 35px;
+    color: rgb(5, 5, 8);
+    background-color: #f5f3ef;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/*  pagina 4 ................................................................ */
+
+.form_cita {
+    background: rgb(20, 134, 71);
+    margin: auto;
+    margin-top: -350px;
+    width: 220px;
+    height: 460px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: start;
+    
+}
+
+#textpantallaf6 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.bt5 {
+    font-size: 17px;
+    top: 22px;
+    width: 145px;
+    height: 35px;
+    color: rgb(5, 5, 8);
+    background-color: #f5f3ef;
+    justify-content: center;
+    border-radius: 10px;
+    margin-inline: 950px 60px;
+}
+
+.bt6 {
+    font-size: 17px;
+    top: 50px;
+    width: 230px;
+    height: 35px;
+    color: rgb(6, 6, 8);
+    background-color: rgb(14, 89, 92);
+    justify-content: center;
+   
+}
+
+.text4 {
+    font-size: 12px;
+}
+
+/* parte  slider*/
+
+.carrusel_contenedor{
+    width: 880px;
+    margin:10px auto ;
+
+}
+
+.carrusel_anterior,
+.carrusel_siguiente{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: none;
+    top: 75%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: black;
+    color: rgb(238, 236, 236);
+    opacity: 90%;
+}
+.carrusel_anterior:hover,
+.carrusel_siguiente:hover{
+    opacity: 100%;
+    background: rgb(19, 105, 19);
+}
+.carrusel_anterior{
+    left: 25px;
+}
+.carrusel_siguiente{
+    right: 25px;
+}
+.carrusel_lista{
+    overflow: hidden;
+}
+.carrusel_elemento{
+    text-align: center;
+    margin: 0px;
+}
+.carrusel-indicadores .glider-dot{
+    background: rgb(0, 0, 0);
+    display: block;
+    width: 20px;
+    height: 20px;
+    opacity: 90%;
+    border-radius: 25%;
+}
+.carrusel-indicadores .glider-dot:hover{
+    background: rgb(14, 233, 233);
+}
+
+
+/* validaciones   */
+
+::placeholder {
+    color: rgb(12, 11, 11);;
+}
+
+
+.validacion:invalid {
+    border: 2.5px solid rgb(194, 14, 14);
+    outline: 0;
+    
+}
+
+
+.validacion:valid {
+    background-color: chartreuse;
+    outline: 0;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate</title>
+    <link rel="stylesheet" href="./Estilosp3.css">
+    <script src="./main.js"></script>
+</head>
+<body >
+    <div>
+        <div class="encabezado1">
+            <img src="./logo2.jpg"  class="logo" width="80" height="55">
+            <h1 class="text">Veterinaria El Refugio</h1>
+        </div>
+        <div class="menu">
+            <input type="submit" class="bt1" id="irse a inicio" value="Ir a Inicio" onclick="IrseaInicio()" >
+            <input type="submit" class="bt4" id="irse a iniciar sesion" value="Ir a Iniciar Sesion" onclick="IrseaIniciarSesion()" >
+        </div>
+        <header class="form_Registrar">
+            <h1>Registrate aqui</h1>
+            <h2>Crea una cuenta 
+                facil y rapido
+            </h2>    
+                <section><br>   
+                    <label class="text23">Nombre</label><br>
+                        <input class="validacion" id="usuario" minlength="3" maxlength="15" required spellcheck="true" type="text" size="30" >
+                    <br><br>
+                    <label class="text23">Apellidos</label><br>
+                        <input class="validacion" minlength="6" maxlength="16" required spellcheck="true"  type="text" size="30" >
+                    <br><br>                               
+                    <label class="text23">Correo Electronico</label><br>
+                        <input class="validacion" minlength="8" maxlength="25" required spellcheck="true" type="email" size="30" >
+                    <br><br>
+                    <label class="text23">Crea una contraseña</label><br>
+                    <input class="validacion" id="clave01" minlength="5" maxlength="15" pattern="[0-9]+" title="intentelo de nuevo" required spellcheck="true" type="text" size="30" >
+                    <br><br>
+                    <label class="text23">Confirme contraseña</label><br>
+                    <input class="validacion" id="clave02" minlength="5" maxlength="15" pattern="[0-9]+" title="intentelo de nuevo" required spellcheck="true" type="text" size="30" ><br><br>
+                   
+                    <input type="submit" class="bt3" id="registrando" value="Registrarte" onclick="IniciandoRegistro()" ><br><br>
+                    <div id="textpantalla"></div>
+                </section>
+        </header>
+        <br><br><br>
+    </div>   
+    <br><br>
+    <div class="piepagina">
+        <label class="textpp">La Veterinaria El Refugio nace tras muchos años de experiencia, calidad y formacion para ofrecer<br>
+                            el mejor ofreciendo el mejor servicio a la salud y bienestar de tu mascota
+        </label>
+    </div>
+</body>
+</html>
